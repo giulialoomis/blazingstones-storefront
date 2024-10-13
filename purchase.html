@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shop</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  
+  <nav>
+    <img src="logo.png" alt="Logo" class="logo">
+    <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="purchase.html"> Shop Candles</a></li>
+        <li><a href="policies.html"> Policies </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+    </ul>
+  </nav>
+
+  <center> 
+  <h1> BLAZING STONES </h1>
+
+  <div class="listing-section">
+  <div class="product">
+    <div class="image-box">
+      <img src="figtree.jpg" alt="Fig Tree Candles" style="width: 250px; height: 300px;">
+    </div>
+    <div class="text-box">
+      <h2 class="item">Fig Tree</h2>
+      <h3 class="price">$20.00</h3>
+      <p class="description">scent profile: tuscan fig + woody + musk</p>
+      <label for="item-1-quantity">Quantity:</label>
+      <input type="text" name="item-1-quantity" id="item-1-quantity" value="1">
+      <button type="button" name="item-1-button" id="item-1-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="product">
+    <div class="image-box">
+      <img src="forestberry.jpg" alt="Forest Berry Candles" style="width: 250px; height: 300px;"> 
+    </div>
+    <div class="text-box">
+      <h2 class="item">Forest Berry</h2>
+      <h3 class="price">$20.00</h3>
+      <p class="description">scent profile: wild blackcurrant</p>
+      <label for="item-2-quantity">Quantity:</label>
+      <input type="text" name="item-2-quantity" id="item-2-quantity" value="1">
+      <button type="button" name="item-2-button" id="item-2-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="product">
+    <div class="image-box">
+      <img src="warmlinen.jpg" alt="Warm Linen Candles" style="width: 250px; height: 300px;"> 
+    </div>
+    <div class="text-box">
+      <h2 class="item">Warm Linen</h2>
+      <h3 class="price">$25.00</h3>
+      <p class="description">scent profile: fresh laundry + summer breeze</p>
+      <label for="item-3-quantity">Quantity:</label>
+      <input type="text" name="item-3-quantity" id="item-3-quantity" value="1">
+      <button type="button" name="item-3-button" id="item-3-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="product">
+    <div class="image-box">
+      <img src="lavendercream.jpg" alt="Lavender Cream Candles" style="width: 250px; height: 300px;"> 
+    </div>
+    <div class="text-box">
+      <h2 class="item">Lavender Cream</h2>
+      <h3 class="price">$25.00</h3>
+      <p class="description">scent profile: vanilla + lavender</p>
+      <label for="item-4-quantity">Quantity:</label>
+      <input type="text" name="item-4-quantity" id="item-4-quantity" value="1">
+      <button type="button" name="item-4-button" id="item-4-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="image-box">
+      <img src="peachy.jpg" alt="Peachy Candles" style="width: 250px; height: 300px;"> 
+    </div>
+    <div class="text-box">
+      <h2 class="item">Peachy</h2>
+      <h3 class="price">$17.00</h3>
+      <p class="description">scent profile: peach + melon + musk</p>
+      <label for="item-2-quantity">Quantity:</label>
+      <input type="text" name="item-5-quantity" id="item-5-quantity" value="1">
+      <button type="button" name="item-5-button" id="item-5-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="product">
+    <div class="image-box">
+      <img src="pinacolada.jpg" alt="Pina Colada Candles" style="width: 250px; height: 300px;"> 
+    </div>
+    <div class="text-box">
+      <h2 class="item">Pina Colada</h2>
+      <h3 class="price">$27.00</h3>
+      <p class="description">scent profile: pinneapple + coconut</p>
+      <label for="item-2-quantity">Quantity:</label>
+      <input type="text" name="item-6-quantity" id="item-6-quantity" value="1">
+      <button type="button" name="item-6-button" id="item-6-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  
+  </div>
+   
+
+  <div class="checkout">
+    <button type="button" id="checkout">Checkout</button>
+      <div class="final-cart-total">
+        <h3 class="price">$0.00</h3> <!-- Initial total is $0.00 -->
+      </div>
+  </div>
+  
+  <div class="keep-shopping">
+    <button type="button" name="keep-shopping" id="keep-shopping">Keep Shopping</button>  
+  </div>
+  
+</div>
+
+  <div class="cart-section">
+  
+  <div class="table-heading">
+    <h2 class="cart-product">Product</h2>
+    <h2 class="cart-price">Price</h2>
+    <h2 class="cart-quantity">Quantity</h2>
+    <h2 class="cart-total">Total</h2>
+  </div>  
+  
+  <div class="table-content">
+    <div class="cart-product">  
+    <div class="cart-image-box">
+    <div class="cart-images" id="image-10"></div>
+  </div>
+    
+  <div class="table-content">
+    <div class="cart-product">  
+    <div class="cart-image-box">
+    <div class="cart-images" id="image-7"></div>
+  </div>
+     
+  
+  <div class="table-content">
+    <div class="cart-product">  
+    <div class="cart-image-box">
+    <div class="cart-images" id="image-3"></div>
+  </div>
+
+</div>
+
+  <script>
+    // Define a variable to store the total price
+    var totalPrice = 0;
+
+    // Function to update the total price displayed on the webpage
+    function updateTotalPrice(totalPrice) {
+        var totalElement = document.querySelector('.final-cart-total h3');
+        totalElement.innerText = '$' + totalPrice.toFixed(2);
+    }
+
+    // Add event listeners to all "Add to Cart" buttons
+    var addToCartButtons = document.querySelectorAll('[id^="item-"][name$="-button"]');
+    addToCartButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            // Retrieve product information
+            var productContainer = button.closest('.product');
+            var productName = productContainer.querySelector('.item').innerText;
+            var productPrice = parseFloat(productContainer.querySelector('.price').innerText.replace('$', '')); // Extract and parse the price
+            var productQuantity = parseInt(productContainer.querySelector('.text-box input[name^="item-"]').value);
+
+            // Create cart item element
+            var cartItem = document.createElement('div');
+            cartItem.className = 'table-content';
+
+            cartItem.innerHTML = `
+                <div class="cart-product">  
+                    <div class="cart-image-box">
+                        <div class="cart-images"></div>
+                    </div>
+                    <h2 class="cart-item">${productName}</h2>
+                    <p class="cart-description">Quantity: ${productQuantity}</p>
+                </div>
+                <div class="cart-price">
+                    <h3 class="price">${productPrice.toFixed(2)}</h3>
+                </div>
+                <div class="cart-total">
+                    <h3 class="price">${(productPrice * productQuantity).toFixed(2)}</h3>
+                    <button type="button" class="remove">x</button>
+                </div>
+            `;
+
+            var cartSection = document.querySelector('.cart-section');
+            cartSection.insertBefore(cartItem, cartSection.lastElementChild); // Insert before the last child (before the checkout button)
+
+            // Update total price
+            totalPrice += productPrice * productQuantity;
+            updateTotalPrice(totalPrice);
+        });
+    });
+
+    // Function to handle checkout
+    document.getElementById('checkout').addEventListener('click', function() {
+        // Your code to handle checkout, such as redirecting to a checkout page
+        alert('Redirecting to checkout page...');
+    });
+</script>
+
+<form action="process_order.php" method="post">
+    <!-- Your form fields for collecting order information -->
+    <input type="text" name="customer_name" placeholder="Your name" required>
+    <input type="email" name="customer_email" placeholder="Your email" required>
+    <!-- Other form fields -->
+    
+    <button type="submit">Place Order</button>
+</form>
+
+    
+  </center>
+  
+</body>
+
+</html>
