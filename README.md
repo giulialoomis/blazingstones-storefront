@@ -1,7 +1,5 @@
 # fullstack-ecommerce-site
 
-# Charity Website Project
-
 ## Overview
 This project is a functional digital storefront, created to promote and support the sales of a small business.
 The website has two main sections: the **public-facing front-end** for users to learn about business and it's products, and the **administrative back-end** for managing product orders through an integrated system.
