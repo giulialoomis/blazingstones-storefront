@@ -7,6 +7,10 @@ The website has two main sections: the **public-facing front-end** for users to 
 The public side focuses on visual design and accessibility, while the back-end is built to handle functional requirements like order processing and database management.
 This project was developed as part of a final course project, showcasing skills in both **front-end** and **back-end development**.
 
+## Live Demo
+Check out the live demo:  
+[https://giulialoomis.github.io/fullstack-ecommerce-site/](https://giulialoomis.github.io/fullstack-ecommerce-site/)
+
 ### Features:
 1. **Public Side (Front-End)**:
    - Provides detailed information about the small business and its mission.
