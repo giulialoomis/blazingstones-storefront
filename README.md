@@ -1,4 +1,4 @@
-# fullstack-ecommerce-site
+# Fullstack Ecommerce Site
 
 ## Overview
 This project is a functional digital storefront, created to promote and support the sales of a small business.
