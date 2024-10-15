@@ -1,4 +1,4 @@
-#Ecommerce Site
+#Blazing Stones Storefront
 
 ## Overview
 This project is a conceptual design for a digital storefront, created to hypothetically promote and support the sales of a small business.
